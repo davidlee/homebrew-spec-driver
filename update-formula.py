@@ -28,7 +28,7 @@ def pypi_sdist(name: str, version: str) -> tuple[str, str]:
 def resolve_deps(version: str) -> list[tuple[str, str]]:
   """Use uv to resolve the full dependency tree."""
   result = subprocess.run(
-    ["uv", "pip", "compile", "--no-header", "-"],
+    ["uv", "pip", "compile", "--no-header", "--refresh", "-"],
     input=f"spec-driver=={version}",
     capture_output=True,
     text=True,
