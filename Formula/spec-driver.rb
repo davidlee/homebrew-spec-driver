@@ -3,8 +3,8 @@ class SpecDriver < Formula
 
   desc "Specification-driven development toolkit"
   homepage "https://supekku.dev/"
-  url "https://files.pythonhosted.org/packages/8a/97/9f5d5876b70feefe26c1bb2e4e1aaab1003143d8583d697aa08331774210/spec_driver-0.6.12.tar.gz"
-  sha256 "905fbcc27bf8ce4e287dfc5987c3704fd493984c8ce0af75e714bbdeb6388c77"
+  url "https://files.pythonhosted.org/packages/ab/0d/be0e05a393d2d28f6efc6325cb01efc0c61d813e1db5d9098d7584eb4fc1/spec_driver-0.6.13.tar.gz"
+  sha256 "5f32a2b15f4fdc837d89e0a64d94981ce44b7d84bac96dc97775cb26d239c318"
   license "MIT"
 
   depends_on "python@3.12"
@@ -62,6 +62,11 @@ class SpecDriver < Formula
   resource "shellingham" do
     url "https://files.pythonhosted.org/packages/58/15/8b3609fd3830ef7b27b655beb4b4e9c62313a4e8da8c676e142cc210d58e/shellingham-1.5.4.tar.gz"
     sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
+  end
+
+  resource "tomlkit" do
+    url "https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz"
+    sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
   end
 
   resource "typer" do
