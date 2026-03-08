@@ -3,8 +3,8 @@ class SpecDriver < Formula
 
   desc "Specification-driven development toolkit"
   homepage "https://supekku.dev/"
-  url "https://files.pythonhosted.org/packages/7a/75/d5af65586cd4ecf4e710428753b2f5177752cdb11ee83cf5bbef28c3f520/spec_driver-0.7.6.tar.gz"
-  sha256 "bfb782620eb4a8679b1c80a29c6d89768166946469a8bea0dcc2258d9a99e8e0"
+  url "https://files.pythonhosted.org/packages/84/5b/a5b328ce036082b8d4fbfdd28e5249752e0e5bb545e4d3adbc39cabb5567/spec_driver-0.7.7.tar.gz"
+  sha256 "e1badd5a1114106c6a2fb84aafe90157ebd76524b76b76ce5dd7b32feab082d7"
   license "MIT"
 
   depends_on "python@3.12"
