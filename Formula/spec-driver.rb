@@ -3,8 +3,8 @@ class SpecDriver < Formula
 
   desc "Specification-driven development toolkit"
   homepage "https://supekku.dev/"
-  url "https://files.pythonhosted.org/packages/16/e8/d04033187bbd6c7dcbd0c340d6c8c15b1f7a1ac00f33b39baa0d00cad01b/spec_driver-0.7.9.tar.gz"
-  sha256 "e3ec3bd7fdbe129c4acbec8cf821d8c20b86308d10935a159594ded2e03d50fc"
+  url "https://files.pythonhosted.org/packages/ff/79/2eb1435fdb57879e6aede50d6607430b386b58c6a1b6f7943ab73418ebdb/spec_driver-0.7.11.tar.gz"
+  sha256 "1be4cfa5960c31d90130476c056077308288382ab9dbd343a37fd12380a5d297"
   license "MIT"
 
   depends_on "python@3.12"
@@ -90,8 +90,8 @@ class SpecDriver < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/be/08/c6bcb1e3c4c9528ec9049f4ac685afdafc72866664270f0deb416ccbba2a/textual-8.0.2.tar.gz"
-    sha256 "7b342f3ee9a5f2f1bd42d7b598cae00ff1275da68536769510db4b7fe8cabf5d"
+    url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
+    sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
   end
 
   resource "tomlkit" do
