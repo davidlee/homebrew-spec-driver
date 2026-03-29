@@ -3,8 +3,8 @@ class SpecDriver < Formula
 
   desc "Specification-driven development toolkit"
   homepage "https://supekku.dev/"
-  url "https://files.pythonhosted.org/packages/82/74/6768d109f7163c9c56eb5863e7b6a2e2f235ced59e7c9be7a4ff1c16ad46/spec_driver-0.9.0.tar.gz"
-  sha256 "abd47eb754ef144d6acfc619a769d6c412c209fb8c9b4ae33cbb27b16c4ca329"
+  url "https://files.pythonhosted.org/packages/34/15/89107a040800506efc3db909c7d557c8923a48f0de1a957b9c8c6b6ab745/spec_driver-0.9.1.tar.gz"
+  sha256 "8cabcaa4abc4dfa1f6dbc91a069b037b0a200489d72719ed731942d6e8150c89"
   license "MIT"
 
   depends_on "python@3.12"
@@ -20,8 +20,8 @@ class SpecDriver < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz"
-    sha256 "41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703"
+    url "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz"
+    sha256 "334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc"
   end
 
   resource "click" do
@@ -105,8 +105,8 @@ class SpecDriver < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
-    sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
+    url "https://files.pythonhosted.org/packages/70/41/fd22435b96a50f24472af31f15e9874ce0ffef0edabb74fcf3d598ab8e53/textual-8.2.0.tar.gz"
+    sha256 "a06201a732b2d2683d2ea11c2538eeb7315c4c7138ed8c8bdb48150b805eaf1e"
   end
 
   resource "tomlkit" do
@@ -115,8 +115,8 @@ class SpecDriver < Formula
   end
 
   resource "ty" do
-    url "https://files.pythonhosted.org/packages/7a/96/652a425030f95dc2c9548d9019e52502e17079e1daeefbc4036f1c0905b4/ty-0.0.24.tar.gz"
-    sha256 "9fe42f6b98207bdaef51f71487d6d087f2cb02555ee3939884d779b2b3cc8bfc"
+    url "https://files.pythonhosted.org/packages/18/94/4879b81f8681117ccaf31544579304f6dc2ddcc0c67f872afb35869643a2/ty-0.0.26.tar.gz"
+    sha256 "0496b62405d62de7b954d6d677dc1cc5d3046197215d7a0a7fef37745d7b6d29"
   end
 
   resource "typer" do
