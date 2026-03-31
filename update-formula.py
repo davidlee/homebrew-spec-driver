@@ -72,6 +72,8 @@ class SpecDriver < Formula
   sha256 "{sha256}"
   license "MIT"
 
+  depends_on "maturin" => :build
+  depends_on "rust" => :build
   depends_on "python@3.12"
 
 {resource_block}

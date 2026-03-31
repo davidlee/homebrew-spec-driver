@@ -7,6 +7,8 @@ class SpecDriver < Formula
   sha256 "8cabcaa4abc4dfa1f6dbc91a069b037b0a200489d72719ed731942d6e8150c89"
   license "MIT"
 
+  depends_on "maturin" => :build
+  depends_on "rust" => :build
   depends_on "python@3.12"
 
   resource "annotated-doc" do
